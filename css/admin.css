@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%; 
+}
+
+/* CSS for Button */
+
+.btn-primary{
+    background-color: #38a3a5;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary:hover{
+    background-color:  #22577a;
+}
+
+.btn-secondary{
+    background-color: #80ed99;
+    padding: 1%;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-secondary:hover{
+    background-color: #57cc99;
+}
+
+.btn-danger{
+    background-color: #ef233c;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-danger:hover{
+    background-color: #d90429;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: #ff4757;
+}
+
+/* CSS for Footer */
+
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+/* CSS for Main Content */
+
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid white;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2ec4b6;
+}
+
+.menu ul li a:hover{
+    color: #38a3a5;
+}
+
+/* CSS for Login */
+
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
+
+.login {
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif; /* Modern font */
+    text-align: center; /* Center text */
+}
+
+.login h2 {
+    color: #333; /* Darker heading */
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded input */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    background-color: #2ec4b6; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #38a3a5; /* Darker blue on hover */
+}
+
+.login a {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+
