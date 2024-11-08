@@ -93,3 +93,6 @@ bash
 Copy code
 git commit -m "Add your feature"
 Push to your branch and submit a pull request.
+ADMIN:
+USERNAME: admin
+PASSWORD: 123
